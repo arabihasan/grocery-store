@@ -146,7 +146,7 @@
       <!-- popular product -->
       <section class="bg-[#EFEBE3] pt-24 pb-40 mt-24">
         <!-- product -->
-        <section class=" px-5 md:px-10">
+        <section class="px-5 md:px-10">
           <h1 class="sora text-[#179800] font-semibold text-3xl mb-14">
             Popular Products
           </h1>
@@ -175,7 +175,9 @@
               </div>
             </div>
             <!-- div right -->
-            <div class="grid grid-cols-2 grid-rows-2 lg:grid-cols-3 gap-4 lg:w-[70%] lg:h-[402px]">
+            <div
+              class="grid grid-cols-2 grid-rows-2 lg:grid-cols-3 gap-4 lg:w-[70%] lg:h-[402px]"
+            >
               <!-- card 1 -->
               <div class="flex items-center bg-white p-3 space-x-2 rounded-xl">
                 <div class="bg-[#EFEBE3] rounded-xl">
@@ -289,7 +291,9 @@
                 </div>
               </div>
               <!-- card 9 -->
-              <div class="hidden lg:flex items-center bg-white p-3 space-x-2 rounded-xl">
+              <div
+                class="hidden lg:flex items-center bg-white p-3 space-x-2 rounded-xl"
+              >
                 <div class="bg-[#EFEBE3] rounded-xl">
                   <img class="p-3" src="./assets/image 41.png" alt="" />
                 </div>
@@ -306,8 +310,14 @@
           </div>
         </section>
       </section>
+      <marquee
+        class="text-green-600 text-2xl font-bold mt-9"
+        behavior=""
+        direction=" left"
+        >Potato 30% off, Onion 10% off, Tomato 5% off</marquee
+      >
       <!-- arrival section -->
-      <section class="mt-24 px-5 md:px-10">
+      <section class="mt-24 px-5 md:px-10 mb-64">
         <h1 class="sora text-[#179800] font-semibold text-3xl">
           Arrival & Offers
         </h1>
@@ -357,5 +367,45 @@
         </div>
       </section>
     </main>
+    <footer class="bg-[#179800] px-5 md:px-10 absolute w-full">
+      <div class="bg-[#EFEBE3] rounded-2xl px-5 md:px-10 lg:flex items-center justify-around relative -mt-48 lg:-mt-40">
+        <div>
+          <img src="./assets/vegetable-busket.png" alt="">
+        </div>
+        <div class="space-y-8">
+          <h1 class="text-black text-[38px] font-bold sora">Get Grocery News!</h1>
+          <p>Exclusive training tips, ticks, product deals and more.</p>
+          <input type="text" placeholder="Email" class="input input-bordered w-full max-w-xs" />
+          <button
+            class="border border-[#179800] rounded-xl px-8 py-2 bg-[#179800] text-white"
+          >
+            Subscribe Now
+          </button>
+        </div>
+      </div>
+      <div class="lg:flex justify-between space-y-4 mt-10">
+        <div class="max-w-[426px]">
+          <img src="./assets/logo-footer.png" alt="" />
+          <p class="sora text-white">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
+        </div>
+        <div class="text-white text-xl ">
+          <ul class="sora flex flex-col space-y-3">
+            <li><a href=""> Product</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="text-white text-xl ">
+          <h1 class="font-bold">Follow Us</h1>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
